@@ -1,0 +1,77 @@
+.action {
+    width: 84%;
+    margin-top: 20px;
+    float: right;
+    background-color: white;
+    text-align: left;
+}
+
+.all-content {
+    padding: 0px 70px;
+}
+
+.all-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.all-content h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+#txt-1 {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    margin: 15px 0px;
+    outline: none;
+    border: 1px solid rgb(166, 175, 182);
+}
+
+#txt-2 {
+    width: 40%;
+    padding: 8px 8px 40px 8px;
+    font-size: 16px;
+    margin-top: 15px;
+    outline: none;
+    border: 1px solid rgb(166, 175, 182);
+
+}
+
+.date-btn,
+.submit-btn {
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(76, 78, 235);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.last-btn {
+    margin: 50px 0px 0px 0px;
+}
+
+.cancel-btn {
+    padding: 14px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 15px 20px 0px 0px;
+}
+
+.cancel-btn:hover {
+    background-color: #fff;
+}

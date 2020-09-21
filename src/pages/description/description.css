@@ -1,0 +1,119 @@
+.description {
+    width: 84%;
+    margin-top: 20px;
+    float: right;
+    background-color: white;
+    text-align: left;
+}
+
+.content-desc {
+    display: flex;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.content-desc i {
+    margin: 4px 00px 0px 15px;
+    font-size: 15px;
+}
+
+.content-desc h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.content-desc h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.content-desc p {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(100, 99, 99);
+    margin: 0;
+    padding-top: 0;
+    text-transform: none;
+    font-style: italic;
+}
+
+.content-desc p span {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(100, 99, 99);
+    margin: 0;
+    padding-top: 0;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: underline rgb(26, 26, 26)
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right img {
+    background-color: whitesmoke;
+    width: 40%;
+    border: 1px solid rgb(123, 123, 124);
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+#links {
+    color: #000;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: underline rgb(26, 26, 26);
+    font-style: normal;
+}
+
+#links:hover {
+    background-color: #fff;
+}
+
+
+.submit-btn {
+    padding: 15px 30px;
+    font-size: 14px !important;
+    font-weight: bold;
+    background-color: rgb(76, 78, 235);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: rgb(76, 78, 235);
+}
+
+.last-btn {
+    margin: 50px 0px 0px 0px;
+}
+
+.cancel-btn {
+    padding: 14px 30px;
+    font-size: 14px !important;
+    font-weight: bold;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 15px 20px 0px 0px;
+    text-decoration: none;
+}
+
+.cancel-btn:hover {
+    background-color: #fff;
+}

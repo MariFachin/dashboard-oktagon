@@ -1,0 +1,103 @@
+.home {
+    width: 84%;
+    margin-top: 50px;
+    float: right;
+    background-color: white;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.section-1 h2 {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.button {
+    padding: 4px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(76, 78, 235);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer
+}
+
+#divSearch {
+    background-color: #ffffff;
+    width: 500px;
+    border: 1px solid rgb(0, 8, 114);
+}
+
+#divSearch i {
+    color: rgb(0, 8, 114);
+    font-size: 22px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#txtSearch {
+    background-color: transparent;
+    float: left;
+    padding-left: 10px;
+    color: rgb(149, 150, 155);
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    outline: none;
+}
+
+.section-2 {
+    margin: 249px 130px 0px 163px;
+    color: rgb(99, 97, 97);
+}
+
+.campaigns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 10px 15px;
+    padding: 30px 0px;
+
+}
+
+li:first-child {
+    width: 26% !important;
+}
+
+
+.campaigns li {
+    width: 15%;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.campaigns i {
+    width: 3%;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: normal;
+    margin-right: 30px;
+}
+
+.decoration {
+    border-bottom: 1px solid rgba(133, 130, 130, 0.541);
+}
+
+.decoration:hover {
+    background-color: rgba(222, 223, 252, 0.774);
+    border: none;
+}
