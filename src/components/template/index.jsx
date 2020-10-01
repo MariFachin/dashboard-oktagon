@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './styles.css'
-import Logo from '../../assets/base64-logo.png'
-import User from '../../assets/base64-thanos-original.jpg'
+import Logo from '../../assets/logo.png'
+import User from '../../assets/thanos-original.jpg'
 
 export default (props) => (
     <>

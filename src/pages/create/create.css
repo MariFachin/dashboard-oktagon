@@ -1,0 +1,123 @@
+.create {
+    width: 84%;
+    margin-top: 103px;
+    float: right;
+    background-color: white;
+    text-align: left;
+}
+
+.modal{
+    width: 38%;
+    padding: 59px 0px;
+    margin-top: 10px;
+    float: right;
+    background-color: rgb(179, 171, 170);
+    text-align: center;
+    margin: -479px 529px 0px 17px;
+}
+
+.modal-header{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+
+.all-content {
+    padding: 0px 70px;
+}
+
+.all-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.all-content p {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(100, 99, 99);
+    margin-right: 0;
+    text-transform: none;
+    padding: 0px 25px;
+}
+
+.btn-file {
+    margin-left: 25px;
+}
+
+.upload {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+.upload img {
+    background-color: whitesmoke;
+    width: 25%;
+    height: 150px;
+    border: 5px solid rgb(76, 78, 235);
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 20px;
+    display: flex;
+    font-weight: normal;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input{
+    font-size: 16px;
+    margin: 15px;
+    outline: none;
+    border: 1px solid rgb(166, 175, 182);
+    padding: 8px;
+}
+
+#txt-1 {
+    width: 40%;
+    margin: 15px!important;
+}
+
+#txt-2 {
+    width: 40%;
+    padding: 8px 8px 40px 8px;
+}
+
+.btn-blue {
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(76, 78, 235);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.last-btn {
+    margin: 50px 0px 0px 0px;
+
+}
+
+.cancel-btn {
+    padding: 14px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 15px 20px 0px 0px;
+}
+
+.cancel-btn:hover {
+    background-color: #fff;
+}

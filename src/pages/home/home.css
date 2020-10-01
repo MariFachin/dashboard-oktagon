@@ -1,6 +1,6 @@
 .home {
     width: 84%;
-    margin-top: 50px;
+    margin-top: 103px;
     float: right;
     background-color: white;
 }
@@ -53,8 +53,13 @@
     color: rgb(149, 150, 155);
     font-size: 18px;
     border: none;
-    height: 32px;
     outline: none;
+    margin: 0;
+}
+
+#det{
+    margin: 0;
+    padding: 0;
 }
 
 .section-2 {
@@ -91,6 +96,7 @@ li:first-child {
     margin: 10px;
     font-weight: normal;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .decoration {

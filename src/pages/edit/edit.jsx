@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 
 import './edit.css'
-import SpiderMan from '../../assets/base64-spiderman.jpg'
-import White from '../../assets/base64-white.jpg'
+import SpiderMan from '../../assets/spiderman.jpg'
+import White from '../../assets/white.jpg'
 
 export default (props) => (
     <div className="create">
         <div className="all-content" >
             <h2>Let's get started</h2>
             <h3>1. Which Hero is starring in this campaign?</h3>
-            <p>Don't see the HERO you wnat to use ? Add new HERO </p>
+            <p>Don't see the HERO you want to use ? Add new HERO </p>
             <div className="upload">
                 <img src={SpiderMan} alt="spiderman" />
                 <img src={White} alt="white" />
