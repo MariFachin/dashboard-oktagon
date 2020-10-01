@@ -113,7 +113,7 @@ const Action = (props) => {
                 </label>
                 <div className="last-btn">
                     <Link to="/" className="cancel-btn">Cancel</Link>
-                    <button className="btn-blue" type="submit" >Create action</button>
+                    <button className="btn-blue" type="submit" >CREATE ACTION</button>
                 </div>
             </form>
             <Modal
@@ -122,7 +122,7 @@ const Action = (props) => {
                 data-testid="modal-compra-sucesso"
                 onHide={handleContinuar}>
                 <Modal.Header className="modal-header">
-                    <Modal.Title>Campaign successfully saved</Modal.Title>
+                    <Modal.Title>Action successfully saved</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                 </Modal.Body>

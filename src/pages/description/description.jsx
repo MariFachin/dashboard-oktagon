@@ -50,7 +50,7 @@ const Description = (props) => {
                         </Moment>
                     </p>
                     <h3>Actions <i className="fa fa-comments">0</i></h3>
-                    <p>No actions added yet.<a id='links' href="/edit">Add One?</a></p>
+                    <p>No actions added yet.<a id='links' href={"/action/" + idRoute.id}>Add One?</a></p>
                     <h3>Open Tasks <i className="fa fa-comments">0</i></h3>
                     <p>No Tasks added yet</p>
                     <div className="last-btn">

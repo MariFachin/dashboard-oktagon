@@ -136,7 +136,7 @@ const Create = (props) => {
 
                 <div className="last-btn">
                     <Link to="/" className="cancel-btn">Cancel</Link>
-                    <button className="btn-blue" type="submit" >Create campaign</button>
+                    <button className="btn-blue" type="submit" >CREATE CAMPAIGN</button>
 
                     {/* <Link type="submit" className="submit-btn">Create campaign</Link> */}
                 </div>

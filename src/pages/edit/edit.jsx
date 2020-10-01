@@ -4,12 +4,9 @@ import { Modal } from 'react-bootstrap';
 import axios from 'axios';
 
 import './edit.css'
-import SpiderMan from '../../assets/spiderman.jpg'
-import White from '../../assets/white.jpg'
 
 const Edit = (props) => {
 
-    const [state, setState] = useState();
     const [states, setStates] = useState({
         id: '',
         imgUrl: '',
@@ -20,17 +17,6 @@ const Edit = (props) => {
         actions: []
     });
     const [showModal, setShowModal] = useState(false);
-    const [editCampaign, setEditCampaign] = useState(
-        {
-            id: '',
-            imgUrl: '',
-            title: '',
-            description: '',
-            dateBegin: '',
-            dateEnd: '',
-            actions: [],
-        }
-    );
     const [idRoute, setIdRoute] = useState(
         {
             id: props.match.params.id,
@@ -85,19 +71,9 @@ const Edit = (props) => {
     return (
         <div className="create" >
             <form className="all-content" onSubmit={handleSubmit}>
-                <h2>Let's get started</h2>
+                <h2>Let's get edit</h2>
                 <label>
-                    1. Which Hero is starring in this campaign?
-                    <p>Don't see the HERO you want to use ? Add new HERO
-                    </p>
-                </label>
-                <div className="upload">
-                    <img src={SpiderMan} alt="spiderman" />
-                    <img src={White} alt="white" />
-                    <img src={White} alt="white" />
-                </div>
-                <label>
-                    2. Whats is the title of the campaign?
+                    1. Edit campaign title.
                     <input
                         type="text"
                         id="txt-1"
@@ -108,7 +84,7 @@ const Edit = (props) => {
                         required />
                 </label>
                 <label>
-                    3. Write a brief description of the campaign.
+                    2. Edit a brief description of the campaign.
                     <input
                         type="text"
                         id="txt-2"
@@ -119,7 +95,7 @@ const Edit = (props) => {
                         required />
                 </label>
                 <label>
-                    4.When wil the campaign start and end? This can be update latter
+                    3. Edit when the campaign will start and end...
                     <div className="dates">
                         <input
                             type="date"
@@ -138,9 +114,7 @@ const Edit = (props) => {
 
                 <div className="last-btn">
                     <Link to="/" className="cancel-btn">Cancel</Link>
-                    <button className="btn-blue" type="submit" >Create campaign</button>
-
-                    {/* <Link type="submit" className="submit-btn">Create campaign</Link> */}
+                    <button className="btn-blue" type="submit" >EDIT CAMPAIGN</button>
                 </div>
             </form>
 
@@ -150,7 +124,7 @@ const Edit = (props) => {
                 data-testid="modal-compra-sucesso"
                 onHide={handleContinuar}>
                 <Modal.Header className="modal-header">
-                    <Modal.Title>Campaign successfully saved</Modal.Title>
+                    <Modal.Title>Campaign successfully edited</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                 </Modal.Body>
