@@ -90,20 +90,31 @@ li:first-child {
     font-weight: normal;
 }
 
-.campaigns i {
+.campaigns i, .edit-btn {
     width: 3%;
     font-size: 20px;
-    margin: 10px;
+    margin: 0px 15px;
     font-weight: normal;
-    margin-right: 30px;
     cursor: pointer;
+    color: rgb(13, 0, 128);
 }
+
+.edit-btn{
+
+    margin: 15px;
+    padding: 0;
+}
+
+.edit-btn:hover{
+    background-color:transparent;
+}
+
+.campaigns i:hover{
+    color:rgb(76, 78, 235);
+}
+
 
 .decoration {
     border-bottom: 1px solid rgba(133, 130, 130, 0.541);
 }
 
-.decoration:hover {
-    background-color: rgba(222, 223, 252, 0.774);
-    border: none;
-}

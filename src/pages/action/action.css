@@ -1,13 +1,13 @@
 .action {
     width: 84%;
-    margin-top: 20px;
+    margin-top: 103px;
     float: right;
     background-color: white;
     text-align: left;
 }
 
 .all-content {
-    padding: 0px 70px;
+    padding: 0px 70px; 
 }
 
 .all-content h2 {

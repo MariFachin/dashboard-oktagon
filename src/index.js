@@ -17,10 +17,10 @@ ReactDOM.render(
         <Template />
         <Switch>
             <Route path="/" render={() => <Home />} exact />
-            <Route path="/edit" render={() => <Edit />} />
+            <Route path="/edit/:id" render={(props) => <Edit {...props} />} />
             <Route path="/create" render={() => <Create />} />
-            <Route path="/description" render={() => <Description />} />
-            <Route path="/action" render={() => <Action />} />
+            <Route path="/description/:id" render={(props) => <Description {...props} />} />
+            <Route path="/action/:id" render={(props) => <Action {...props} />} />
         </Switch>
     </ BrowserRouter>,
     document.getElementById('root')

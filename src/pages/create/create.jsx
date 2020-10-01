@@ -10,8 +10,8 @@ import White from '../../assets/white.jpg'
 const Create = (props) => {
 
     const [state, setState] = useState();
-    // const [id, setId] = useState();
     const [showModal, setShowModal] = useState(false);
+    const [idCampaign, setId] = useState({ id: '' });
     const [newCampaign, setNewCampaign] = useState(
         {
             title: '',
@@ -61,22 +61,18 @@ const Create = (props) => {
                 "dateBegin": newCampaign.dateBegin,
                 "dateEnd": newCampaign.dateEnd
             }
-
-
         })
             .then(function (response) {
                 setShowModal(true);
-                // let id = this.props.response.data._id
 
+                setId({ id: response.data._id })
             })
     }
+
 
     function handleContinuar() {
         setShowModal(false);
     }
-
-
-
     return (
         <div className="create" >
             <form className="all-content" onSubmit={handleSubmit}>
@@ -157,12 +153,11 @@ const Create = (props) => {
                 <Modal.Body>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Link to="/description" variant="success" onClick={handleContinuar} className="submit-btn">CONTINUE</Link>
+                    <Link to={"/description/" + idCampaign.id} variant="success" onClick={handleContinuar} className="submit-btn">CONTINUE</Link>
                 </Modal.Footer>
             </Modal>
 
         </div>
-
     );
 }
 export default Create
